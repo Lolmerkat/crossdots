@@ -22,13 +22,13 @@ cd ~/.dotfiles && git clone https://github.com/Lolmerkat/crossdots cross-config 
 ```
 
 **On Windows:**  
-You will either need to have **WSL** or the **MSYS2** shell installed.
-
-My recommendation for the `.dotfiles` location is `%userprofile%/.dotfiles` which
-expands to `C:\Users\<name>\.dotfiles`, where `<name>` is your username.
-
-_In the first and third command replace `~/` with `C:\Users\<name>`._  
-You should see the configuration files appear in `C:\Users\<name>\.config`.
+> You will either need to have **WSL** or the **MSYS2** shell installed.
+> 
+> My recommendation for the `.dotfiles` location is `%userprofile%/.dotfiles` which
+> expands to `C:\Users\<name>\.dotfiles`, where `<name>` is your username.
+> 
+> _In the first and third command replace `~/` with `C:\Users\<name>`._  
+> You should see the configuration files appear in `C:\Users\<name>\.config`.
 
 ### Using plain `git`
 *Prerequisites:*
@@ -46,5 +46,5 @@ git clone https://github.com/Lolmerkat/crossdots tmp_cross-config && mv ./tmp_cr
 ```
 
 **On Windows:**  
-_In the second command replace `~/` with `C:\Users\<name>`._  
-You should see the configuration files appear in `C:\Users\<name>\.config`.
+> _In the second command replace `~/` with `C:\Users\<name>`._  
+> You should see the configuration files appear in `C:\Users\<name>\.config`.
