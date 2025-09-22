@@ -17,8 +17,5 @@ return {
                 }
             }
         },
-        snippets = {
-            preset = "luasnip"
-        }
     }
 }
