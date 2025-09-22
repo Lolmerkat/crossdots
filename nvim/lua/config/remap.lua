@@ -17,11 +17,3 @@ vim.keymap.set('n', 'J', function() vim.diagnostic.open_float() end
 -- Lazy
 vim.keymap.set('n', '<leader>L', ':Lazy<CR>',
     { desc = "Open Lazy.nvim", noremap = true, silent = true })
-
--- Mason
-vim.keymap.set('n', '<leader>M', '<cmd>Mason<CR>',
-    { desc = "Open Mason", noremap = true, silent = true })
-
--- Ccc
-vim.keymap.set({'n'}, '<leader>pc', "<cmd>CccPick<CR>",
-    { desc = "Open Ccc picker", noremap = true, silent = true })
