@@ -5,7 +5,17 @@ return {
         ensure_installed = { "lua_ls" }
     },
     dependencies = {
-        { "mason-org/mason.nvim", opts = {} },
+        {
+            "mason-org/mason.nvim",
+            opts = {},
+            keys = {
+                {
+                    "<leader>M",
+                    "<cmd>Mason<CR>",
+                    desc = "Open Mason"
+                }
+            }
+        },
         "neovim/nvim-lspconfig"
     }
 }
