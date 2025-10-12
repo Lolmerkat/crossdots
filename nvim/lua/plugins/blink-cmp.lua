@@ -1,10 +1,8 @@
 return {
     "saghen/blink.cmp",
+    lazy = true,
+    event = "InsertEnter",
     version = "1.*",
-    dependencies = {
-        "saghen/blink.compat",
-        "hrsh7th/cmp-nvim-lsp",
-    },
     opts = {
         sources = {
             default = { "lazydev", "lsp", "path", "buffer", "snippets" },
@@ -17,8 +15,5 @@ return {
                 }
             }
         },
-        snippets = {
-            preset = "luasnip"
-        }
     }
 }

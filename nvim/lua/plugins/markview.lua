@@ -1,6 +1,7 @@
 return {
     "oxy2dev/markview.nvim",
-    lazy = false,
+    event = "VeryLazy",
+    ft = "markdown",
     priority = 49,
     keys = {
         {

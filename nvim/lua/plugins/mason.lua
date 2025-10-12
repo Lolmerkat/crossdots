@@ -1,9 +1,21 @@
 return {
-   "williamboman/mason.nvim",
+    "mason-org/mason-lspconfig.nvim",
     opts = {
-        ui = { border = rounded },
-        registries = {
-            "github:mason-org/mason-registry",
-        }
+        automatic_enable = true,
+        ensure_installed = { "lua_ls" }
+    },
+    dependencies = {
+        {
+            "mason-org/mason.nvim",
+            opts = {},
+            keys = {
+                {
+                    "<leader>M",
+                    "<cmd>Mason<CR>",
+                    desc = "Open Mason"
+                }
+            }
+        },
+        "neovim/nvim-lspconfig"
     }
 }
