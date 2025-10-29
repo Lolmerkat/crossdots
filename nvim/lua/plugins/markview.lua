@@ -1,7 +1,7 @@
 return {
     "oxy2dev/markview.nvim",
     event = "VeryLazy",
-    ft = "markdown",
+    ft = { "markdown" },
     priority = 49,
     keys = {
         {
