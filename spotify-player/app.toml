@@ -1,5 +1,5 @@
 theme = ""
-client_id = "3ec90170d47343a399fa8cc62c46549a"
+client_id = "f56c38cf02fe49f7bdcb5ee60f6f7ab5"
 client_port = 8080
 login_redirect_uri = "http://127.0.0.1:8989/login"
 playback_format = """
