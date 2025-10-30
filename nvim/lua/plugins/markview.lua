@@ -6,7 +6,7 @@ return {
     keys = {
         {
             "<leader>mm",
-            "<cmd>MarkviewToggle<CR>",
+            "<cmd>Markview toggle<CR>",
             desc = "Toggle Markview Split"
         }
     }
