@@ -28,7 +28,6 @@ config.hide_tab_bar_if_only_one_tab = true
 config.tab_max_width = 25
 config.enable_tab_bar = true
 config.enable_wayland = false
-config.term = 'wezterm'
 
 config.window_background_opacity = 0.44
 config.win32_system_backdrop = 'Acrylic'
