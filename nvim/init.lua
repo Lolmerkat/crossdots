@@ -13,6 +13,7 @@ require("config.utils.colors")
 require("config.remap")
 require("config.set")
 require("config.lualine")
+require("config.icons")
 
 -- autocommands
 require("config.autocommand.markdown")
