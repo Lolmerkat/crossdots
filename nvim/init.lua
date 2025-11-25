@@ -14,6 +14,7 @@ require("config.remap")
 require("config.set")
 require("config.lualine")
 require("config.icons")
+require("config.notifications")
 
 -- autocommands
 require("config.autocommand.markdown")
