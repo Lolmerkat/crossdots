@@ -12,6 +12,8 @@ return {
 
             c = { "clang-format" },
             cpp = { "clang-format" },
+
+            go = { "gofmt" }
         }
     }
 }
