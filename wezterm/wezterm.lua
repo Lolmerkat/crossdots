@@ -41,6 +41,8 @@ config.font = wezterm.font_with_fallback {
     'Noto Color Emoji'
 }
 config.color_scheme = "matugen_theme"
+config.adjust_window_size_when_changing_font_size = false
+config.front_end = "OpenGL"
 
 -- and finally, return the configuration to wezterm
 return config
