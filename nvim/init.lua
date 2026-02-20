@@ -17,8 +17,6 @@ require("config.icons")
 require("config.notifications")
 
 -- autocommands
-require("config.autocommand.markdown")
-require("config.autocommand.batch")
 require("config.autocommand.trailing-whitespace")
 
 -- highlight groups
