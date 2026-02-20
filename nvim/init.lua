@@ -14,14 +14,13 @@ require("config.remap")
 require("config.set")
 require("config.lualine")
 require("config.icons")
-require("config.notifications")
 
 -- autocommands
 require("config.autocommand.trailing-whitespace")
 
 -- highlight groups
-require("config.themes.status-column")
 require("config.themes.hlgroup_override")
+require("config.themes.status-column")
 
 -- themes
 require("config.themes.cyberdream")
