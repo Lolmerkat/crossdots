@@ -1,5 +1,7 @@
 return {
     'stevearc/conform.nvim',
+    lazy = true,
+    event = "InsertEnter",
     opts = {
         format_on_save = {
             timeout_ms = 500,
