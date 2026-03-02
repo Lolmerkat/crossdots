@@ -37,7 +37,7 @@ config.window_background_opacity = 0.44
 config.win32_system_backdrop = 'Acrylic'
 config.kde_window_background_blur = true
 config.font = wezterm.font_with_fallback {
-    { family = 'JetBrains Mono', weight = 'Medium' },
+    { family = 'JetBrainsMono NFM', weight = 'Medium' },
     'Noto Color Emoji'
 }
 config.color_scheme = "matugen_theme"
