@@ -3,7 +3,7 @@ local act = wezterm.action
 local config = wezterm.config_builder()
 
 config.keys = {
-    { key = 'V', mods = 'CTRL',       action = act.PasteFrom 'Clipboard' },
+    { key = 'V', mods = 'CTRL|SHIFT', action = act.PasteFrom 'Clipboard' },
     { key = 'C', mods = 'CTRL|SHIFT', action = act.CopyTo 'ClipboardAndPrimarySelection' },
     { key = 'W', mods = 'CTRL|SHIFT', action = act.CloseCurrentTab { confirm = true } },
     { key = 'N', mods = 'CTRL|SHIFT', action = act.ToggleFullScreen },
