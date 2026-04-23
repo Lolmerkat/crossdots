@@ -4,5 +4,12 @@ require("nvim-web-devicons").setup({
             icon = "",
             color = "#0087ac",
         }
+    },
+    override = {
+        css = {
+            icon = "󰌜",
+            color = "#0058d1",
+            name = "Css"
+        }
     }
 })
