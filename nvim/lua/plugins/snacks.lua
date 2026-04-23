@@ -5,7 +5,12 @@ return {
     --- @type snacks.Config
     opts = {
         explorer = {
-            replace_netrw = true
+            replace_netrw = true,
+            icons = {
+                files = {
+                    enabled = true,
+                },
+            },
         },
         picker = {
             enabled = true,
