@@ -13,7 +13,20 @@ return {
             c = { "clang-format" },
             cpp = { "clang-format" },
 
-            go = { "gofmt" }
+            go = { "gofmt" },
+            qml = { "qmlformat" },
+        },
+        formatters = {
+            qmlformat = {
+                condition = function(ctx)
+                    local found_config = vim.fs.find(".qmlformat.ini", {
+                        path = ctx.dirname,
+                        upward = true
+                    })
+
+                    return #found_config > 0
+                end
+            }
         }
     }
 }
