@@ -4,7 +4,6 @@ vim.g.loaded_netrwPlugin = 1
 
 -- require lazy
 require("config.lazy")
-require("config.lsp.keymap")
 
 -- utils
 require("config.utils.colors")
@@ -14,10 +13,8 @@ require("config.remap")
 require("config.set")
 require("config.lualine")
 require("config.icons")
-require("config.notifications")
 
 -- autocommands
-require("config.autocommand.markdown")
 require("config.autocommand.batch")
 require("config.autocommand.trailing-whitespace")
 
